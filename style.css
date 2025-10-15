@@ -29,3 +29,36 @@ li {
     min-height: 100%;
     background-color: rgb(192, 236, 236);
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: #2c2c2c;
+    font-size: 40px;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 40px 50px;
+    font-size: 28px;
+    color: rgb(10, 10, 56);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #2c2c2c;
+    font-size: 30px;
+    color: #fff;
+}
+
+.footer-title {
+}
